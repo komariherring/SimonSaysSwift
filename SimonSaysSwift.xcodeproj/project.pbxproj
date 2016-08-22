@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EE1E3FF11D6630DC0082C822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E3FF01D6630DC0082C822 /* AppDelegate.swift */; };
-		EE1E3FF31D6630DC0082C822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E3FF21D6630DC0082C822 /* ViewController.swift */; };
 		EE1E3FF61D6630DC0082C822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1E3FF41D6630DC0082C822 /* Main.storyboard */; };
 		EE1E3FF81D6630DC0082C822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1E3FF71D6630DC0082C822 /* Assets.xcassets */; };
 		EE1E3FFB1D6630DC0082C822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1E3FF91D6630DC0082C822 /* LaunchScreen.storyboard */; };
+		EE1E40031D66324D0082C822 /* SimonSaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1E40021D66324D0082C822 /* SimonSaysViewController.swift */; };
+		EEE174C81D677CFA00931D45 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE174C71D677CFA00931D45 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE1E3FED1D6630DC0082C822 /* SimonSaysSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSaysSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1E3FF01D6630DC0082C822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE1E3FF21D6630DC0082C822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE1E3FF51D6630DC0082C822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE1E3FF71D6630DC0082C822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1E3FFA1D6630DC0082C822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1E3FFC1D6630DC0082C822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1E40021D66324D0082C822 /* SimonSaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimonSaysViewController.swift; path = ../SimonSaysViewController.swift; sourceTree = "<group>"; };
+		EEE174C71D677CFA00931D45 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				EE1E3FF01D6630DC0082C822 /* AppDelegate.swift */,
-				EE1E3FF21D6630DC0082C822 /* ViewController.swift */,
+				EE1E40021D66324D0082C822 /* SimonSaysViewController.swift */,
+				EEE174C71D677CFA00931D45 /* ColorPickerViewController.swift */,
 				EE1E3FF41D6630DC0082C822 /* Main.storyboard */,
 				EE1E3FF71D6630DC0082C822 /* Assets.xcassets */,
 				EE1E3FF91D6630DC0082C822 /* LaunchScreen.storyboard */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE1E3FF31D6630DC0082C822 /* ViewController.swift in Sources */,
 				EE1E3FF11D6630DC0082C822 /* AppDelegate.swift in Sources */,
+				EE1E40031D66324D0082C822 /* SimonSaysViewController.swift in Sources */,
+				EEE174C81D677CFA00931D45 /* ColorPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +301,7 @@
 				EE1E40011D6630DC0082C822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
